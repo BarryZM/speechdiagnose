@@ -1,0 +1,34 @@
+请问您牙龈出血吗？出血反复吗？ intput>>
+{
+"descp":"0",
+"nlu":
+{
+"timestamp":1529098481,"skillId":"2018061000000004","skill":"寻医问诊","systime":3.537109375,"res":"5b1cbcd0f54d8a00011e5918","version":"2018.5.30.16:26:49","input":"我牙龈疼",
+"semantics":{"request":
+{
+"confidence":1,
+"task":"问诊",
+"slotcount":3,
+
+
+"slots":[
+{"value":"-0","pos":[1,2],"rawvalue":"牙龈","rawpinyin":"ya yin","name":"部位"},
+{"value":"牙龈demo","name":"intent"},
+{"value":"0","pos":[3,3],"rawvalue":"疼","rawpinyin":"teng","name":"描述"}
+]
+
+
+}
+},
+"skillVersion":"latest"
+},
+
+"duiWidget":"text",
+"obj":"-0",
+"rec":"我牙龈疼",
+"intent":"牙龈demo"
+} 
+
+
+debug>>
+{"imput_val":["obj","-0","index_last",[1,2],"descp","0","index_last",[1,2]],"index_next":[1,2],"index_obj":0,"descps":[0],"diagnoses":{"风火上犯":[0,1,1,1,0,1],"风热牙疳":[0,0,0,0,1,0],"肾阴虚火":[0,1,1,1,1,0],"脾不统血":[0,0,0,0,1,1]},"index_cur":[0]} 
